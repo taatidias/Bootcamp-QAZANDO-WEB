@@ -153,4 +153,27 @@ menus.cy.js
 
 - Utilize a sintaxe Cypress com describe e it para criar seus testes automatizados.
 
+### 🚀 Como executar os testes
+
+#### 1. Instale as dependências (caso não tenha feito):
+
+```javascript
+
+npm install
+
+````
+#### 2. Rode os testes em modo interativo:
+
+```javascript
+
+npx cypress open
+
+````
+### 3.Ou rode em modo headless:
+
+```javascript
+
+npx cypress run
+
+
 
