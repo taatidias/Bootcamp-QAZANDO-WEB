@@ -1,4 +1,4 @@
-# 📂 Projeto de Automação – Cypress
+# 📂 Projeto de Automação Web – Cypress
 
 Este projeto contém automações E2E desenvolvidas com **Cypress**, cobrindo as principais funcionalidades da aplicação [automationpratice.com.br](https://automationpratice.com.br), incluindo **Login**, **Cadastro de Usuário** e **Navegação por Menus**.
 
