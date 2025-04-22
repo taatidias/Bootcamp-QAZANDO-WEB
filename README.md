@@ -104,7 +104,7 @@ cy.get('#checkout2Page').click()
 cy.get('.checkout_form_area > h3').should('have.text', 'Billing Details')
 
 ```
-#### 🧰 Pré-requisitos e Tecnologias
+### 🧰 Pré-requisitos e Tecnologias
 
 Antes de começar, certifique-se de ter instalado em sua máquina:
 
@@ -114,8 +114,8 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 - Git instalado
 - Cypress (será instalado no passo a passo)
 
-``
-#### 📌 Passo a passo para configurar o projeto Cypress
+
+### 📌 Passo a passo para configurar o projeto Cypress
 
 #### 1. Criar um novo projeto Node.js
 
