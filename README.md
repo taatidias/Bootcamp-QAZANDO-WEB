@@ -103,4 +103,54 @@ cy.get('#menuShopText').click()
 cy.get('#checkout2Page').click()
 cy.get('.checkout_form_area > h3').should('have.text', 'Billing Details')
 
+```
+#### 🧰 Pré-requisitos e Tecnologias
+
+Antes de começar, certifique-se de ter instalado em sua máquina:
+
+- Node.js
+- Visual Studio Code
+- Git Bash
+- Git instalado
+- Cypress (será instalado no passo a passo)
+
+``
+#### 📌 Passo a passo para configurar o projeto Cypress
+
+#### 1. Criar um novo projeto Node.js
+
+```javascript
+
+npm init -y
+
+````
+#### 2. Instalar o Cypress
+
+```javascript
+
+npm install cypress
+
+````
+#### 3. Iniciar o Cypress pela primeira vez (cria a estrutura inicial)
+
+```javascript
+
+npx cypress open
+
+````
+#### 4. Criar arquivos de teste
+
+- Crie arquivos .cy.js dentro da pasta cypress/e2e, por exemplo:
+
+```javascript
+
+login.cy.js
+cadastro.cy.js
+menus.cy.js
+
+````
+#### 5. Escrever os cenários de teste
+
+- Utilize a sintaxe Cypress com describe e it para criar seus testes automatizados.
+
 
