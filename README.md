@@ -169,7 +169,7 @@ npm install
 npx cypress open
 
 ````
-### 3.Ou rode em modo headless:
+#### 3.Ou rode em modo headless:
 
 ```javascript
 
